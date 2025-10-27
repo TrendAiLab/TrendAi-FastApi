@@ -1,0 +1,16 @@
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+pymilvus>=2.3.0
+sentence-transformers>=2.2.0
+# For GPU support, install the appropriate PyTorch version for your CUDA version:
+# CUDA 11.8: torch>=2.0.0+cu118
+# CUDA 12.1: torch>=2.0.0+cu121  
+# CPU only: torch>=2.0.0+cpu
+torch>=2.0.0
+transformers>=4.35.0
+supabase>=2.0.0
+groq>=0.4.0
+python-multipart>=0.0.6
